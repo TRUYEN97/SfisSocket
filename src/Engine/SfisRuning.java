@@ -117,4 +117,8 @@ public class SfisRuning extends Thread {
         isConnect = true;
     }
 
+    public String getData() {
+        return readSfis.getData();
+    }
+
 }
